@@ -1,1 +1,1 @@
-# Bootcamp - Data-Sciente Unimed BH
+# Bootcamp - Data-Science Unimed BH
