@@ -23,7 +23,7 @@ New command:
 !sudo rm -rf 101_ObjectCategories.zip /content/__MACOSX /content/caltech-101
 !ls
 ```
-[Result](static/getting-data.png)
+![Result](static/getting-data.png)
 
 2. Fix function get_image:
 2.1 For this we need change the import of keras. In lines of import change line 15 `from keras.preprocessing import image` to `from keras.utils import load_img, img_to_array` and in function:
@@ -39,7 +39,7 @@ def get_image(path):
 3. When we let's quickly look at a few sample images from our dataset. one more time we use import like image.load_image, only you need do it's exclude the word and the dot `image.`
 
 4. Error "All RAM used..." to fix it change type of processing to TPU.
-[RAM error](static/tpu_processing.png)
+![RAM error](static/tpu_processing.png)
 
 5. Change the value when we plot a validation "val_acc" to`ax2.plot(history.history["val_accuracy"])` 
 Note: A little more down we need change it again.
