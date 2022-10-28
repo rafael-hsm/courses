@@ -39,7 +39,7 @@ def get_image(path):
 3. When we let's quickly look at a few sample images from our dataset. one more time we use import like image.load_image, only you need do it's exclude the word and the dot `image.`
 
 4. Error "All RAM used..." to fix it change type of processing to TPU.
-[RAM error](static/tpu_processing.png.png)
+[RAM error](static/tpu_processing.png)
 
 5. Change the value when we plot a validation "val_acc" to`ax2.plot(history.history["val_accuracy"])` 
 Note: A little more down we need change it again.
