@@ -44,3 +44,5 @@ def get_image(path):
 5. Change the value when we plot a validation "val_acc" to`ax2.plot(history.history["val_accuracy"])` 
 Note: A little more down we need change it again.
 
+[Project updated.](https://github.com/rafael-hsm/courses/blob/main/rhsm_transfer_learning.ipynb)
+
