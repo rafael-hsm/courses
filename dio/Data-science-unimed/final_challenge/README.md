@@ -23,7 +23,7 @@ New command:
 !sudo rm -rf 101_ObjectCategories.zip /content/__MACOSX /content/caltech-101
 !ls
 ```
-![Result](static/getting-data.png)
+![Result](static/getting_data.png)
 
 2. Fix function get_image:
 2.1 For this we need change the import of keras. In lines of import change line 15 `from keras.preprocessing import image` to `from keras.utils import load_img, img_to_array` and in function:
